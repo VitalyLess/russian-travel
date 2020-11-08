@@ -4,7 +4,7 @@
   line-height: 35px;
   text-align: center;
   margin: 0 auto;
-  width: 288px;
+  max-width: 288px;
   z-index: 1;
   position: relative;
 }
@@ -13,6 +13,6 @@
   .cover__title {
     font-size: 72px;
     line-height: 76px;
-    width: 560px;
+    max-width: 560px;
   }
 }
