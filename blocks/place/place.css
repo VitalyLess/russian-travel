@@ -1,0 +1,33 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr ;
+  gap: 32px;
+  margin: 49px auto 0;
+}
+
+.place:first-of-type {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    grid-template-columns: 1fr calc(352/720*100%);
+    gap: 48px 28px;
+    margin: 73px auto 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    grid-template-columns: 1fr calc(456/928*100%);
+    gap: 48px 32px;
+    margin: 80px auto 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    grid-template-columns: 1fr calc(484/984*100%);
+    gap: 48px 40px;
+  }
+}

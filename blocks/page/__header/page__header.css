@@ -1,0 +1,9 @@
+.page__header {  
+  margin: 16px auto 0;
+}
+
+@media screen and (min-width: 768px) {
+  .page__header {
+    margin: 28px auto 0;
+  }
+}

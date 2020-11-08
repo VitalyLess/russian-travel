@@ -1,24 +1,27 @@
-.header {
-  display: flex;
+.footer {
   width: 90%;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
 }
 
 @media screen and (min-width: 768px) {
-  .header {
+  .footer {
     width: 94%;
+    grid-template-columns: 1fr 186px;
+    gap: 0;
+    justify-content: space-between;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .header {
+  .footer {
     width: 91%;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .header {
+  .footer {
     width: 93%;
   }
 }
