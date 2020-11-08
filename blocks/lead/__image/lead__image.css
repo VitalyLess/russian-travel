@@ -3,15 +3,3 @@
   display: block;
   margin: 0 auto;
 }
-
-@media screen and (min-width: 1024px) {
-  .lead__image {
-    width: 91%;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lead__image {
-    width: 77%;
-  }
-}
